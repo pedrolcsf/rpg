@@ -13,6 +13,10 @@ const Main = ({ children, router }) => {
       <title>RPG - System</title>
       <meta name="description" content="RPG System." />
       <link rel="icon" href="/favicon.ico" />
+
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet" />
     </Head>
     <Header path={router.asPath} />
     {/* maxW certo é = container.md */}
