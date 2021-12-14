@@ -1,6 +1,10 @@
 {
   "name": "rpg",
-  "private": true,
+  "author": {
+    "name": "Pedro Ferreira",
+    "email": "pedrolcsferreira@gmail.com",
+    "url": "https://pedroferreira.dev"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
